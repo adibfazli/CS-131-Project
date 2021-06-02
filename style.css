@@ -8,6 +8,9 @@ h1{
 body{
 
 }
+h1{
+    font-family: 'Times New Roman', serif;
+}
 page{
   height: 1000px;
 }
@@ -44,15 +47,28 @@ page{
 .Title_Div{
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
 }
 .titleImage{
-  width: 15%;
+  width: 23%;
 }
 
-
-
+.discription{
+    margin: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: #3d3d3d;
+    font-family: "Times New Roman", Times, serif;
+}
+.CoinGecko{
+    color: green;
+}
+.bold{
+    font-weight: 600;
+}
+.orange{
+    color: rgb(19, 167, 0)
+}
 
 
 
